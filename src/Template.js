@@ -52,7 +52,7 @@ class Template extends React.Component {
     let val = event.target.value;
     let err = '';
     if (nam === "age") {
-      if (val !="" && !Number(val)) {
+      if (val !=="" && !Number(val)) {
         err = <strong>Your age must be a number</strong>;
       }
     }

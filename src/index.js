@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Template from './Template';
-//import Timer from './Timer'; 
+//import Timer from './Timer';
+import Upload2 from './Upload2'; 
 
 //const myfirstelement = <h1>Hello React!</h1>
 
-ReactDOM.render(<Template />, document.getElementById('root'));
+ReactDOM.render(<Upload2 />, document.getElementById('root'));
 //ReactDOM.render(<Timer />, document.getElementById('timer'));
 
 
