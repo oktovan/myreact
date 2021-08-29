@@ -1,0 +1,2 @@
+curl --location --request POST 'http://localhost:3001/auth/api/v2/upload_image' \
+--form 'avatar=@"/home/okto/Pictures/iso27001.jpg"'
